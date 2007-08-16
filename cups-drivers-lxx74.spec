@@ -3,9 +3,9 @@
 Summary:	A Linux Printer Driver for Lexmark X74 All In One
 Name:		cups-drivers-%{rname}
 Version:	0.8.4.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
-Group:		System/Configuration/Printing
+Group:		System/Printing
 URL:		http://home.online.no/~enrio/
 Source0:	http://home.online.no/~enrio/%{rname}-cups-%{version}.tar.gz
 Requires:	cups
