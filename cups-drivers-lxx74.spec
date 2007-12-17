@@ -14,7 +14,6 @@ BuildRequires:	cupsddk
 Conflicts:	cups-drivers = 2007
 Conflicts:	printer-utils = 2007
 Conflicts:	printer-filters = 2007
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 A Linux Printer Driver for Lexmark X74 All In One
