@@ -10,7 +10,7 @@ URL:		http://home.online.no/~enrio/
 Source0:	http://home.online.no/~enrio/%{rname}-cups-%{version}.tar.gz
 Requires:	cups
 BuildRequires:	cups-devel
-BuildRequires:	cupsddk
+BuildRequires:	cups
 Conflicts:	cups-drivers = 2007
 Conflicts:	printer-utils = 2007
 Conflicts:	printer-filters = 2007
