@@ -3,7 +3,7 @@
 Summary:	A Linux Printer Driver for Lexmark X74 All In One
 Name:		cups-drivers-%{rname}
 Version:	0.8.4.2
-Release:	%mkrel 10
+Release:	%mkrel 11
 License:	GPL
 Group:		System/Printing
 URL:		http://home.online.no/~enrio/
@@ -160,3 +160,55 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %{_datadir}/cups/model/%{rname}/Samsung-MJC-530-%{rname}.ppd*
 %attr(0644,root,root) %{_datadir}/cups/model/%{rname}/Samsung-MJC-940-%{rname}.ppd*
 %attr(0644,root,root) %{_datadir}/cups/model/%{rname}/Samsung-MJC-950-%{rname}.ppd*
+
+
+%changelog
+* Tue May 03 2011 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-10mdv2011.0
++ Revision: 663438
+- mass rebuild
+
+* Tue Nov 30 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-9mdv2011.0
++ Revision: 603870
+- rebuild
+
+* Sun Mar 14 2010 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-8mdv2010.1
++ Revision: 518884
+- fix deps
+- rebuild
+
+* Sun Aug 09 2009 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-7mdv2010.0
++ Revision: 413286
+- rebuild
+
+* Tue Dec 23 2008 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-6mdv2009.1
++ Revision: 318070
+- use %%ldflags
+
+* Mon Jun 16 2008 Thierry Vignaud <tv@mandriva.org> 0.8.4.2-5mdv2009.0
++ Revision: 220540
+- rebuild
+
+* Fri Jan 11 2008 Thierry Vignaud <tv@mandriva.org> 0.8.4.2-4mdv2008.1
++ Revision: 149147
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Thu Aug 30 2007 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-3mdv2008.0
++ Revision: 75327
+- fix deps (pixel)
+
+* Thu Aug 16 2007 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-2mdv2008.0
++ Revision: 64148
+- use the new System/Printing RPM GROUP
+
+* Mon Aug 13 2007 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-1mdv2008.0
++ Revision: 62506
+- Import cups-drivers-lxx74
+
+
+
+* Mon Aug 13 2007 Oden Eriksson <oeriksson@mandriva.com> 0.8.4.2-1mdv2008.0
+- initial Mandriva package
