@@ -86,7 +86,7 @@ cp lxx74.ppd Lexmark-Z35-lxx74.ppd
 sed -i -e 's/All In One/Z35/gi' Lexmark-Z35-lxx74.ppd
 cp lxx74.ppd Lexmark-Inkjet_Printer-lxx74.ppd
 sed -i -e 's/All In One/Inkjet Printer/gi' Lexmark-Inkjet_Printer-lxx74.ppd
-cp lxx74.ppd Lexmark-InkJet_4104-lxx74.ppd
+cp lxx74.ppd Lexmark-Inkjet_4104-lxx74.ppd
 sed -i -e 's/All In One/Inkjet 4104/gi' Lexmark-Inkjet_4104-lxx74.ppd
 cp lxx74.ppd Samsung-MJC-940-lxx74.ppd
 sed -i -e 's/All In One/MJC-940/gi' Samsung-MJC-940-lxx74.ppd
@@ -131,7 +131,7 @@ install -m0644 *.ppd* %{buildroot}%{_datadir}/cups/model/%{rname}/
 %{_datadir}/cups/model/%{rname}/%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Compaq-IJ670-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Compaq-Inkjet_Printer-%{rname}.ppd*
-%{_datadir}/cups/model/%{rname}/Lexmark-InkJet_4104-%{rname}.ppd*
+%{_datadir}/cups/model/%{rname}/Lexmark-Inkjet_4104-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Lexmark-Inkjet_Printer-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Lexmark-X74-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Lexmark-X75-%{rname}.ppd*
