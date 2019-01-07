@@ -10,6 +10,7 @@ Url:		http://home.online.no/~enrio/
 Source0:	http://home.online.no/~enrio/%{rname}-cups-%{version}.tar.gz
 BuildRequires:	cups
 BuildRequires:	cups-devel
+BuildRequires:	pkgconfig(zlib)
 Requires:	cups
 
 %description
@@ -54,7 +55,7 @@ This package contains CUPS drivers (PPD) for the following printers:
 %build
 sed -i -e "s|gcc|gcc %{optflags} %{ldflags}|g" Makefile
 make clean
-%make
+%make_build
 
 gunzip lxx74.ppd.gz
 cp lxx74.ppd Compaq-IJ670-lxx74.ppd
