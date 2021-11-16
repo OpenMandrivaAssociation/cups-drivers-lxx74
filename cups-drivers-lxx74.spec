@@ -3,7 +3,7 @@
 Summary:	A Linux Printer Driver for Lexmark X74 All In One
 Name:		cups-drivers-%{rname}
 Version:	0.8.4.2
-Release:	22
+Release:	23
 License:	GPLv2
 Group:		System/Printing
 Url:		http://home.online.no/~enrio/
@@ -150,4 +150,3 @@ install -m0644 *.ppd* %{buildroot}%{_datadir}/cups/model/%{rname}/
 %{_datadir}/cups/model/%{rname}/Samsung-MJC-530-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Samsung-MJC-940-%{rname}.ppd*
 %{_datadir}/cups/model/%{rname}/Samsung-MJC-950-%{rname}.ppd*
-
