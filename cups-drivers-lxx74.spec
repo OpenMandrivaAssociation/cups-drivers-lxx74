@@ -6,7 +6,7 @@ Version:	0.8.4.2
 Release:	25
 License:	GPLv2
 Group:		System/Printing
-Url:		http://home.online.no/~enrio/
+Url:		https://home.online.no/~enrio/
 Source0:	http://home.online.no/~enrio/%{rname}-cups-%{version}.tar.gz
 BuildRequires:	cups
 BuildRequires:	cups-devel
