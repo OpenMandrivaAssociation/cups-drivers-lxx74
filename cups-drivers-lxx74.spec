@@ -8,6 +8,7 @@ License:	GPLv2
 Group:		System/Printing
 Url:		https://home.online.no/~enrio/
 Source0:	http://home.online.no/~enrio/%{rname}-cups-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	cups
 BuildRequires:	cups-devel
 BuildRequires:	pkgconfig(zlib)
